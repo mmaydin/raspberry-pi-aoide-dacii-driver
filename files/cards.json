@@ -1,0 +1,5 @@
+{"name": "sndrpiaoidedigi", "multidevice": false, "prettyname": "Aoide Digi Pro", "type":"i2S"},
+{"name": "Pro", "multidevice": false, "prettyname": "Aoide DAC Pro", "type":"i2S"},
+{"name": "II", "multidevice": false, "prettyname": "Aoide DAC II", "defaultmixer": "Digital", "type":"i2S"},
+{"name": "sndrpiaoidezerodacplus", "multidevice": false, "prettyname": "Aoide Zero DAC Plus", "type":"i2S"},
+{"name": "sndrpiaoidezerodigiplus", "multidevice": false, "prettyname": "Aoide Zero Digi Plus", "type":"i2S"},
