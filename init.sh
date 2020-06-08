@@ -19,4 +19,4 @@ sed -i -e "s/{\"name\":\"Raspberry PI\",\"data\":\[/{\"name\":\"Raspberry PI\",\
 
 cards=$(<files/cards.json)
 escapecards=`echo -e $(printf '%q' $cards)`
-sed -e "s/\"cards\": \[/\"cards\": \[${escapecards}/" /volumio/app/plugins/audio_interface/alsa_controller/cards.json
+sed -i -e "s/\"cards\": \[/\"cards\": \[${escapecards}/" /volumio/app/plugins/audio_interface/alsa_controller/cards.json
